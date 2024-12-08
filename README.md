@@ -1,5 +1,3 @@
-### README for Screening Contributions via Pull Requests
-
 # Welcome to the Screening Repository
 
 This repository is designed as a part of our recruitment and skill evaluation process. By contributing to this project, you’ll showcase your technical expertise, problem-solving abilities, and collaboration skills. We value clean code, attention to detail, and effective communication in a professional development environment.
