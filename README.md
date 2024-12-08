@@ -14,6 +14,10 @@ We use this repository to:
 
 By completing the tasks and creating a **Pull Request (PR)**, you’ll demonstrate your fit for the role.
 
+## Important Deadline
+**This test will end on December 10, 2024, at 23:59 Beijing Time (GMT+8).**
+After this time, the repository will be set to private, and no further contributions will be accepted.
+
 ---
 
 ## How to Participate
@@ -34,9 +38,8 @@ Read the issues or tasks outlined in this repository. Each task is designed to e
 ### 4. Create a Branch
 Create a new branch for your work:
 ```bash
-git checkout -b feature/your-branch-name
+git checkout -b feature/your-name
 ```
-Use a descriptive branch name related to the task, e.g., `fix-ui-bug` or `add-login-feature`.
 
 ### 5. Implement the Solution
 - Follow the coding standards and guidelines provided in the repository (if applicable).
@@ -53,7 +56,7 @@ git commit -m "Describe the changes you made"
 ### 7. Push Your Branch
 Push your changes to your forked repository:
 ```bash
-git push origin feature/your-branch-name
+git push origin your-name
 ```
 
 ### 8. Submit a Pull Request
