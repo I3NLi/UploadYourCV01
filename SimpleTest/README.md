@@ -29,7 +29,7 @@ Follow the steps below to set up and run the project:
    npm run dev
    ```
 
-3. Open your browser and navigate to the URL provided in the terminal (usually `http://localhost:3000`).
+3. Open your browser and navigate to the URL provided in the terminal.
 
 ---
 
