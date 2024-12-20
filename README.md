@@ -33,7 +33,7 @@ git clone https://github.com/your-username/repo-name.git
 Replace `your-username` with your GitHub username.
 
 ### 3. Review the Task
-Read the TASK.md in this repository. Each task is designed to evaluate specific skills, so make sure to review them thoroughly.
+Read the **TASK.md** in this repository. Each task is designed to evaluate specific skills, so make sure to review them thoroughly.
 
 ### 4. Create a Branch
 Create a new branch for your work:
