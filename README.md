@@ -15,7 +15,7 @@ We use this repository to:
 By completing the tasks and creating a **Pull Request (PR)**, you’ll demonstrate your fit for the role.
 
 ## Important Deadline
-**This test will end on December 11, 2024, at 23:59 Beijing Time (GMT+8).**
+**This test will end on December 31, 2024, at 23:59 Beijing Time (GMT+8).**
 After this time, the repository will be set to private, and no further contributions will be accepted.
 
 ---
