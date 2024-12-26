@@ -1,0 +1,13 @@
+.text-logo {
+  font-weight: bolder;
+  color: white;
+  transition: text-shadow 0.6s ease-in-out, transform 0.6s ease-in-out;
+}
+
+.text-logo:hover {
+  text-shadow: 
+    0 0 15px rgba(255, 255, 255, 0.8), 
+    0 0 30px rgba(255, 255, 255, 0.6), 
+    0 0 45px rgba(255, 255, 255, 0.4);
+  transform: scale(1.05);
+}

@@ -1,0 +1,49 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  --el-color-primary:#E32F38;
+  --el-color-primary-dark-2: #B8272E;
+  --el-color-primary-light-5: #B8272E;
+  --el-color-primary-light-3: #B8272E;
+  --el-color-primary-light-7: #B8272E;
+
+  --primary-color: #E32F38;
+
+  --gradient1: #DB7846;
+  --gradient2: #DB5E46;
+  --gradient3: #DB9246;
+
+  --card-bg: #ffffff;
+}
+
+html.dark {
+  --el-color-primary:#B8272E;
+  --el-color-primary-dark-2: #B8272E;
+  --el-mask-color: #18181C;
+
+  --el-color-primary-light-5: #8D1E23;
+  --el-color-primary-light-3: #8D1E23;
+  --el-color-primary-light-7: #8D1E23;
+
+  --primary-color: #962026;
+
+  --gradient1: #6D3B23;
+  --gradient2: #8F3E2E;
+  --gradient3: #8F602E;
+
+  --card-bg: #18181C;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#app {
+  min-width: 100vw;
+  min-height: 100vh;
+}

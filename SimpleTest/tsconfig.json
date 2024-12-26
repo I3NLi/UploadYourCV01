@@ -3,5 +3,9 @@
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
+  ],
+  "include": [
+    // other files...
+    "./typed-router.d.ts"
   ]
 }
