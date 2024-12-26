@@ -47,9 +47,10 @@ async function submit(formEl) {
         message: '登录成功',
         type: 'success',
       })
+      localStorage.setItem('userLoginToken', res.data.token)
       if (state.rememberPwd) {
-        localStorage.setItem('userLoginToken', res.data.token)
         localStorage.setItem('userEmail', form.email)
+        localStorage.setItem('userPwd', 'fake password')
       }
       router.push('/')
     } else {
