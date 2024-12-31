@@ -1,30 +1,23 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import { ref } from 'vue'
+import { useRouter } from "vue-router";
+const router = useRouter();
+const isDarkRef = ref(false)
+// 根据具体情况判断是否重定向到login还是dashboard页面
+router.replace("/login");
+
+const onToggleTheme = () => {
+  isDarkRef.value = !isDarkRef.value
+  if (isDarkRef.value) {
+    document.documentElement.classList.add("dark")
+    return
+  }
+  document.documentElement.classList.remove("dark")
+}
 </script>
 
 <template>
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
+  <toggle-button @click="onToggleTheme"
+    class="absolute scale-[30%] laptop:scale-50 top-4 laptop:top-10 right-8 laptop:right-16"></toggle-button>
+  <RouterView />
 </template>
-
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
-</style>
